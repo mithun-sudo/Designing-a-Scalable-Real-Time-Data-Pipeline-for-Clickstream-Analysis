@@ -23,5 +23,3 @@ df = df.groupBy("country", "url").agg(count("click_event_id").alias("click_count
 
 """"Loading the dataframe to elastic search server hosted on localhost:9200."""
 df.write.format('org.elasticsearch.spark.sql').option('es.nodes', 'localhost').option('es.port', 9200).option('es.resource', '%s/%s' % ('test', 'data')).save()
-
-# spark/bin/pyspark --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.0 --jars elasticsearch-spark-30_2.12-8.7.1.jar
