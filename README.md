@@ -2,7 +2,7 @@
 This project implements a real-time data pipeline for clickstream analysis using Kafka, Spark, and Elasticsearch.
 
 ### Brief:
-1. A python program [generating_click_streams.py](https://github.com/mithun-sudo/Designing-a-Scalable-Real-Time-Data-Pipeline-for-Clickstream-Analysis/blob/main/generating_click_streams.py) that generates click event streams.
+1. A python program [generating_click_streams.py](https://github.com/mithun-sudo/Designing-a-Scalable-Real-Time-Data-Pipeline-for-Clickstream-Analysis/blob/main/generating_click_streams.py) that generates click event streams and writes it to a kafka server.
 2. Kafka server hosted on localhost:9092 acts as a buffer storage for the streaming data.
 3. Spark streaming API [Consuming_kafka_streams.py](https://github.com/mithun-sudo/Designing-a-Scalable-Real-Time-Data-Pipeline-for-Clickstream-Analysis/blob/main/Consuming_kafka_streams.py) reads data from kafka server, flattens out nested json and the resulting data is written to a storage layer at granular level.
 4. As per requirements, the transformations are performed on the data using Spark [Aggregation_with_spark.py](https://github.com/mithun-sudo/Designing-a-Scalable-Real-Time-Data-Pipeline-for-Clickstream-Analysis/blob/main/Aggregation_with_spark.py) and loaded to elasticsearch localhost:9200. 
