@@ -1,0 +1,155 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 241,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "VeKcN4gBemxnL_Ud00T5",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "Italy",
+          "url" : "www.globalmart.com/logout",
+          "event_date" : "05-20-2023",
+          "click_count" : 29,
+          "average_minutes_spent" : 2.185,
+          "unique_users_count" : 29
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "W-KcN4gBemxnL_Ud00T5",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "USA",
+          "url" : "www.globalmart.com/product-id-28",
+          "event_date" : "05-20-2023",
+          "click_count" : 3,
+          "average_minutes_spent" : 3.8033333333333332,
+          "unique_users_count" : 3
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "XeKcN4gBemxnL_Ud00T5",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "England",
+          "url" : "www.globalmart.com/product-id-43",
+          "event_date" : "05-20-2023",
+          "click_count" : 3,
+          "average_minutes_spent" : 3.6799999999999997,
+          "unique_users_count" : 3
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "X-KcN4gBemxnL_Ud00T5",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "Spain",
+          "url" : "www.globalmart.com/product-id-43",
+          "event_date" : "05-20-2023",
+          "click_count" : 3,
+          "average_minutes_spent" : 2.56,
+          "unique_users_count" : 3
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "YeKcN4gBemxnL_Ud00T5",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "England",
+          "url" : "www.globalmart.com/product-id-44",
+          "event_date" : "05-20-2023",
+          "click_count" : 4,
+          "average_minutes_spent" : 2.5625,
+          "unique_users_count" : 4
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "Z-KcN4gBemxnL_Ud00T6",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "England",
+          "url" : "www.globalmart.com/product-id-47",
+          "event_date" : "05-20-2023",
+          "click_count" : 5,
+          "average_minutes_spent" : 3.678,
+          "unique_users_count" : 5
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "cOKcN4gBemxnL_Ud00T6",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "Spain",
+          "url" : "www.globalmart.com/product-id-21",
+          "event_date" : "05-20-2023",
+          "click_count" : 3,
+          "average_minutes_spent" : 3.5,
+          "unique_users_count" : 3
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "fuKcN4gBemxnL_Ud00T6",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "England",
+          "url" : "www.globalmart.com/product-id-17",
+          "event_date" : "05-20-2023",
+          "click_count" : 3,
+          "average_minutes_spent" : 3.5499999999999994,
+          "unique_users_count" : 3
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "kOKcN4gBemxnL_Ud00T7",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "Italy",
+          "url" : "www.globalmart.com/product-id-28",
+          "event_date" : "05-20-2023",
+          "click_count" : 7,
+          "average_minutes_spent" : 4.135714285714285,
+          "unique_users_count" : 7
+        }
+      },
+      {
+        "_index" : "click",
+        "_type" : "data",
+        "_id" : "ouKcN4gBemxnL_Ud00T7",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "url" : "www.globalmart.com/product-id-42",
+          "event_date" : "05-20-2023",
+          "click_count" : 1,
+          "average_minutes_spent" : 1.48,
+          "unique_users_count" : 1
+        }
+      }
+    ]
+  }
