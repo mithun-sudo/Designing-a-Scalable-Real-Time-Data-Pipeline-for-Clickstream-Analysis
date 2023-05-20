@@ -13,4 +13,4 @@ This project implements a real-time data pipeline for clickstream analysis using
 2. This project can be replicated in cloud services. EC2 instances or Azure VM can be used to host kafka and elasticsearch servers. AWS S3 or ADLS can be used as storage layer. A trigger can be scheduled in such a way that spark applications can read the data file at a particular time interval, perform aggregations and load that into elastic search.
 3. At production level we will be getting data throughout the year, at that time we can partition the streaming data by year, month, day and store it in storage layer. Reading the data and performing transformation can be done efficiently if partitioned.
 4. We can also setup multiple kafka servers and increase the replication factor of the topic. By doing so we improve the fault tolerance of our data pipeline.
-5. 
+
